@@ -33,7 +33,8 @@ dependencies {
 	testImplementation 'io.projectreactor:reactor-test'
 	testImplementation 'io.rest-assured:spring-web-test-client'
 	testImplementation 'org.springframework.cloud:spring-cloud-starter-contract-verifier'
-//	testImplementation 'com.jayway.jsonpath:json-path:2.4.0'
+//	testImplementation 'com.jayway.jsonpath:json-path:2.6.0'
+	testImplementation 'com.toomuchcoding.jsonassert:jsonassert:0.6.1'
 }
 
 dependencyManagement {
